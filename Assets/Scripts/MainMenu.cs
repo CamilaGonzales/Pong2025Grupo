@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    private string gameSceneName = "GameScene";
+    private string gameSceneName = "Game_Pong";
 
     public void StartGame()
     {
@@ -14,6 +14,6 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit(); // En el Editor no se cierra, en build sí
+        Application.Quit();
     }
 }
